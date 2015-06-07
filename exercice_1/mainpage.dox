@@ -1,0 +1,15 @@
+/**
+* @author David Desmarest
+* @date Avril 2015
+* @mainpage Programmation multithread avec Qt : TD2 - Exercice 1
+Ce TD a pour objectif de mettre en oeuvre un pattern Pooling grâce à la librarie Qt. 
+Le programme réalise une recherche récursive dans un répertoire et pour chaque fichier recherche la présence d'une chaine de caractères donnée. La recherche se fait à l'aide de plusieurs threads.
+Le programme demande à l'utisateur de saisir :
+   - un nom de répertoire
+   - le suffix des fichiers à traiter
+   - la chaine à rechercher dans les fichiers
+   - 0/1 pour désactiver/activer l'affichage des résultats
+
+Plusieurs tests sont réalisés en utilisant de 1 à 4 threads. Le temps que chaque test est mesuré après la construction du pool
+
+*/
